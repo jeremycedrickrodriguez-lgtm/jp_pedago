@@ -86,8 +86,8 @@ export const HomeView: React.FC<HomeViewProps> = ({
           </div>
 
           {/* College Name (bottom right) */}
-          <div className="absolute right-4 sm:right-10 lg:right-14 bottom-3 sm:bottom-6 z-10 text-right max-w-[60%]">
-            <h1 className="text-sm sm:text-xl lg:text-2xl font-bold text-[#d6b45f] drop-shadow-xs">
+          <div className="absolute right-4 sm:right-10 lg:right-14 bottom-3 sm:bottom-6 z-10 text-right max-w-[85%] sm:max-w-none">
+            <h1 className="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-[#d6b45f] drop-shadow-xs whitespace-nowrap [text-wrap:nowrap]">
               Teodoro M. Luansing College of Rosario
             </h1>
           </div>

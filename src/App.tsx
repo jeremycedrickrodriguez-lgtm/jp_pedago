@@ -457,15 +457,15 @@ export function App() {
           <button
             type="button"
             onClick={() => navigateProtected('home')}
-            className="flex items-center gap-2.5 text-left shrink-0 cursor-pointer group"
+            className="flex items-center gap-2 text-left shrink-0 cursor-pointer group"
           >
             <img
               src={LOGO_B64}
               alt="TMLCR Seal"
               referrerPolicy="no-referrer"
-              className="h-10 w-10 rounded-lg object-cover border border-[#d6b45f]/60"
+              className="h-8 w-8 rounded-md object-cover border border-[#d6b45f]/60"
             />
-            <span className="text-lg sm:text-xl font-extrabold tracking-tight text-[#d6b45f] whitespace-nowrap group-hover:text-white transition-colors">
+            <span className="text-sm sm:text-base font-extrabold tracking-tight text-[#d6b45f] whitespace-nowrap group-hover:text-white transition-colors">
               PEDAGOREADY
             </span>
           </button>
