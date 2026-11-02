@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-serif: 'Fraunces', Georgia, serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #eef2ee;
+    color: #18261c;
+    overflow-x: hidden;
+  }
+
+  h1, h2, .font-display {
+    text-wrap: balance;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom scrollbar for course outline */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #e4ebe5;
+}
+::-webkit-scrollbar-thumb {
+  background: #9db3a3;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1d4d2b;
+}

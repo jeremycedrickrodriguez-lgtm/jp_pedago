@@ -1,0 +1,8 @@
+{
+  "name": "Remix EduFlow Mastery",
+  "description": "A streamlined learning platform with randomized exams, progress tracking, and personalized performance analytics for students and teachers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
